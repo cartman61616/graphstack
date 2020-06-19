@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 let mongoDB;
 
 const setupDB = callback => {
-    const uri = '' // get from mongo site
+    const uri = 'mongodb+srv://graphstack1:<password>@graphstack-ndzc3.gcp.mongodb.net/full-stack-server?retryWrites=true&w=majority' // get from mongo site
 
     MongoClient.connect(
         uri,
